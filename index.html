@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relational Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="alert alert-primary" style="text-align: center;">
+    <div>
+        <h2 class="alert alert-secondary">Relational Calculator</h2>
+    </div>
+    <div class="alert alert-danger">
+        <h4 class="alert alert-heading" id="output" ></h4>
+    </div>
+    <div class="alert alert-warning">
+        <input type="number" name="num1" id="num1">
+        <input type="number" name="num2" id="num2">
+    </div>
+    <div>
+        <button onclick="equalto()"> <span class="badge badge-danger"> = = </span> </button>
+        <button onclick="notequal()"> <span class="badge badge-danger"> ! = </span> </button>
+        <button onclick="greater()"> <span class="badge badge-danger">  >  </span> </button>
+        <button onclick="less()"> <span class="badge badge-danger">  <  </span>  </button>
+        <button onclick="greaterequal()"> <span class="badge badge-danger"> > = </span> </button>
+        <button onclick="lessequal()"> <span class="badge badge-danger"> < = </span> </button>
+    </div>
+
+    <script src="relationalCalc.js"></script>
+    
+</body>
+</html>
